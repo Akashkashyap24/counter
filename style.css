@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+#text{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-size: 4rem;
+}
+#ctext{
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+}
+hr{
+    position: absolute;
+    top: 9.3rem;
+    left: 4rem;
+    width: 9.7rem;
+}
+#dec,#inc,#clear{
+    width: 8rem;
+    height: 2rem;
+}
+#inc,#clear{
+    margin-left: 2rem;
+}
+.btn{
+    position: absolute;
+    top: 14rem;
+    left: 4rem;
+}
+.error{
+    position: absolute;
+    top: 11rem;
+    left: 4rem;
+    color: red;
+    visibility: hidden;
+    
+}
