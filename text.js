@@ -26,5 +26,6 @@ dec.addEventListener("click", () => {
 });
 clear.addEventListener("click",()=>{
     ans.innerHTML=0;
+    count =0;
 
 });
